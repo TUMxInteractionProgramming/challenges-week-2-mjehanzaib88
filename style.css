@@ -1,0 +1,146 @@
+  
+
+        /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+        /*global styles */
+        * {
+            /* #2 #font #faces */
+            font-family: 'Arial', sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+        
+        
+        /*app bar styles */
+        h1 {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+        /*channels list styles */
+        
+        
+        #list{
+            background-color: white;            
+            
+            
+        }
+        /*style of lists */
+        li{
+            list-style-type: none;
+            padding: 16px;
+            height: 16px;
+            border-bottom: 1px solid #F5F5F5;
+        }
+        /*border and color of selected channel */
+        #list li.selected{
+            color: #3F51B5;
+            border-left: 4px solid #3F51B5;
+            
+            
+        }
+        /*tab bar styles */
+        
+        #tab-buttons{
+            background-color: white;
+            
+        }
+        /*tab buttons have 
+        background white
+        text aligned to center
+        text color is black
+        and no border */
+        #tab-buttons button{
+            background-color: white;
+            text-align: center;
+            color: black;
+            font-size: 13px;
+            border: none;
+            width: 33%;
+            height: 72px;
+            padding: 16px;
+            margin: auto;
+
+        }
+        /*color and border of selected button(NEW) */
+        #tab-buttons button.selected {
+            border-bottom: 4px solid #3F51B5;
+            color: #3F51B5;
+        }
+        /*messages styles */
+
+        a, button, strong{
+            
+            /* #2 #font capital #letters */
+            text-transform: uppercase;
+        }
+        .message p, .own-message p {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+            padding: 16px;
+            
+        }
+        
+        .message h3, .own-message h3 {
+            /* #2 #font #metadata is now medium */
+            font-size: medium;
+        }
+
+        .message em, .own-message em {
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+        }
+        /*color of linked locations */
+        .message a, .own-message a{
+            color: black;
+        }
+        .message {
+            width: 80%;
+            margin-bottom: 8px;
+            margin-left: 2.5%;
+        }
+        /*own message block */
+        .own-message {
+            width: 80%;
+            margin-bottom: 8px;
+            margin-left: 17.5%;
+        }
+        /*button {*/
+            /* #2 #colourful #plusfive */
+            /*background-color: #CDDC39;*/
+            /*color: black;*/
+            /* #2 #font capital #letters */
+            /*text-transform: uppercase;
+        }*/
+        .message button, .own-message button {
+            /* #2 #colourful #plusfive */
+            background-color: #CDDC39;
+            color: black;
+        }
+
+        
+        
+        
+        
+
+        
+       
+        
+
+        
+
+        
+        
